@@ -48,7 +48,7 @@
         <header class="masthead" id="">
             <div class="container">
                 <div class="masthead-subheading"><img src="assets/img/pelindoo.png" alt=""> Monitoring</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You Bot Enabled</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
                 <!-- <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="#">LOGIN</a> -->
             </div>
         </header>

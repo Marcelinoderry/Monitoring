@@ -37,7 +37,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Aplikasi Berjalan</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">DB Server Berjalan</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> -->
-                        <li> <button class="btn btn-transparent" type="submit" name="logout" data-placement="top" title="Logout"><i class="fas fa-sign-out-alt"></i> </button></li>
+                        <li> <button class="btn btn-danger" type="submit" name="logout" data-placement="top" title="Logout"><i class="fas fa-sign-out-alt"></i> </button></li>
                     </ul>
                 </div>
             </div>
@@ -325,11 +325,8 @@
         <!-- DB server berjalan -->
 
         <!-- Contact-->
-        <section class="page-section contact" id="contact">
+        <section class="page-section bg-light" id="contact">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                </div>
                 <div class="info-wrap">
                     <div class="row">
                       <div class="col-lg-3 col-md-6 info">
@@ -337,19 +334,19 @@
                         <h4>Location:</h4>
                         <p>A108 Adam Street<br>New York, NY 535022</p>
                       </div>
-          
+
                       <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
                         <i class="icofont-clock-time icofont-rotate-90"></i>
                         <h4>Open Hours:</h4>
                         <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
                       </div>
-          
+
                       <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
                         <i class="icofont-envelope"></i>
                         <h4>Email:</h4>
                         <p>info@example.com<br>contact@example.com</p>
                       </div>
-          
+
                       <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
                         <i class="icofont-phone"></i>
                         <h4>Call:</h4>

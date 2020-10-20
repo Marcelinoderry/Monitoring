@@ -37,7 +37,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Aplikasi Berjalan</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">DB Server Berjalan</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> -->
-                        <li> <button class="btn btn-danger" type="submit" name="logout" data-placement="top" title="Logout"><i class="fas fa-sign-out-alt"></i> </button></li>
+                        <li> <button class="btn btn-transparent" type="submit" name="logout" data-placement="top" title="Logout"><i class="fas fa-sign-out-alt"></i> </button></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <div class="form-group col-md-6">
                   <label>Direktorat</label>
                   <select name="direktorat" id="direktorat" class="form-control">
-                    <option>Pilih</option>
+                    <option>Direktorat</option>
                     <option>Keuangan</option>
                     <option>Operasi</option>
                     <option>SDM & Umum</option>
@@ -72,14 +72,14 @@
                 <div class="form-group col-md-6">
                   <label>Pengguna</label>
                   <select name="pengguna" id="pengguna" class="form-control">
-                    <option>Pilih</option>
-                    <option>ALL</option>
+                    <option>Pengguna</option>
                     <option>JAYAPURA</option>
                     <option>PANTOLOAN</option>
                     <option>KENDARI</option>
                     <option>GORONTALO</option>
                     <option>TARAKAN</option>
                     <option>PUSAT</option>
+                    <option>ALL</option>
                   </select>
                 </div>
               </div>
@@ -199,6 +199,9 @@
         <!-- Aplikasi Berjalan-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
+              <div class="text-center">
+                  <h2 class="section-heading text-uppercase">Aplikasi berjalan</h2>
+              </div><br>
                 <div class="row">
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">

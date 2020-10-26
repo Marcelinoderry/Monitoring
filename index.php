@@ -6,6 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Monitoring</title>
+        <link rel="shortcut icon" href="assets/img/title.png" type="image/x-icon">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -18,8 +19,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
 
     </head>
+
     <body id="page-top">
 
         <!-- Navigation-->

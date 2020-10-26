@@ -365,7 +365,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 text-lg-center">Copyright © Your Website 2020</div>
+                    <div class="col-lg-12 text-lg-center"> &copy; 2020 Pelindo IV All Rights Reserved.</div>
                 </div>
             </div>
         </footer>

@@ -52,7 +52,7 @@
 						<button class="login100-form-btn" name="login">
 							Sign in
 						</button>
-					</div>
+					</div>					
 				</form>
 			</div>
 		</div>

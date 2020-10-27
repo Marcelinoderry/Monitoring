@@ -25,7 +25,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href=""><img src="assets/img/pelindoo.png" alt=""> Monitoring</a>
+                <a class="navbar-brand js-scroll-trigger" href=""><img src="assets/img/pelindoo.png" alt=""></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ml-1"></i>
@@ -48,7 +48,7 @@
         <header class="masthead" id="">
             <div class="container">
                 <div class="masthead-subheading"><img src="assets/img/pelindoo.png" class="img-fluid" alt="Responsive image"></div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
                 <!-- <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="#">LOGIN</a> -->
             </div>
         </header>
@@ -362,7 +362,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 text-lg-center"> &copy; 2020 Pelindo IV All Rights Reserved.</div>
+                    <div class="col-lg-12 text-lg-center"> &copy; 2020 <strong>Pelindo IV</strong> All Rights Reserved.</div>
                 </div>
             </div>
         </footer>

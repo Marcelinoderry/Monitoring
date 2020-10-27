@@ -429,7 +429,7 @@
                                   <td>8000</td>
                                   <td>...</td>
                                   <td>PHP</td>
-                                  <td>NONAKTIF</td>
+                                  <td>valid</td>
                                   <td>...</td>
                                   <td>LINUX</td>
                                 </tr>

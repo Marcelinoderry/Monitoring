@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Monitoring</title>
-        <link rel="shortcut icon" href="assets/img/title.png" type="image/x-icon">
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- normalize CSS -->
-        <link rel="stylesheet" href="css/bootstrap-table.css">
-        <link rel="stylesheet" href="css/bootstrap-editable.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        
+<head>
 
-    </head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Monitoring</title>
+  <link rel="shortcut icon" href="assets/img/title.png" type="image/x-icon">
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- normalize CSS -->
+  <link href="css/dataTables.bootstrap4.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
 
-    <body id="page-top">
+</head>
 
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <body id="page-top">
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href=""><img src="assets/img/pelindoo.png" alt=""></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,20 +44,20 @@
                 </div>
             </div>
         </nav>
-        <!-- Navigation-->
+    <!-- Navigation-->
 
-        <!-- Masthead-->
-        <header class="masthead" id="">
+    <!-- Masthead-->
+    <header class="masthead" id="">
             <div class="container">
                 <div class="masthead-subheading"><img src="assets/img/pelindoo.png" class="img-fluid" alt="Responsive image"></div>
                 <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
                 <!-- <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="#">LOGIN</a> -->
             </div>
         </header>
-        <!-- Masthead-->
+    <!-- Masthead-->
 
-        <!-- Filter -->
-        <section class="page-section bg-white" id="">
+    <!-- Filter -->
+    <section class="page-section bg-white" id="">
             <div class="container">
               <form>
               <div class="row">
@@ -197,10 +196,10 @@
               </div>
             </div>
         </section>
-        <!-- Filter -->
+    <!-- Filter -->
 
-        <!-- Aplikasi Berjalan-->
-        <section class="page-section bg-light" id="portfolio">
+    <!-- Aplikasi Berjalan-->
+    <section class="page-section bg-light" id="portfolio">
             <div class="container">
               <div class="text-center">
                   <h2 class="section-heading text-uppercase">Aplikasi berjalan</h2>
@@ -221,7 +220,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -234,7 +233,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -247,7 +246,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -261,10 +260,10 @@
                 </div>
             </div>
         </section>
-        <!-- Aplikasi Berjalan-->
+    <!-- Aplikasi Berjalan-->
 
-        <!-- DB server berjalan -->
-        <section class="page-section bg-white" id="portfolio">
+    <!-- DB server berjalan -->
+    <section class="page-section bg-white" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">DB Server Berjalan</h2>
@@ -272,7 +271,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -285,7 +284,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -298,7 +297,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -311,7 +310,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-3 mb-6">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
                               <div class="portfolio-caption">
                                   <span class="fa-stack fa-4x">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -325,10 +324,10 @@
                 </div>
             </div>
         </section>
-        <!-- DB server berjalan -->
+    <!-- DB server berjalan -->
 
-        <!-- Contact-->
-        <section class="page-section bg-light" id="contact">
+    <!-- Contact-->
+    <section class="page-section bg-light" id="contact">
             <div class="container">
                 <div class="info-wrap">
                     <div class="row">
@@ -359,99 +358,141 @@
                   </div>
             </div>
         </section>
-        <!-- Contact-->
+    <!-- Contact-->
 
-        <!-- Footer-->
-        <footer class="footer py-4">
+    <!-- Footer-->
+    <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 text-lg-center"> &copy; 2020 <strong>Pelindo IV</strong> All Rights Reserved.</div>
                 </div>
             </div>
         </footer>
-        <!-- Footer-->
+    <!-- Footer-->
 
-        <!-- Portfolio Modals-->
-        <!-- Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Portfolio Modals-->
+    <!-- Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container-fluid">
                       <!-- Data Table start -->
                       <div class="row">
-                          <div class="col-lg-12">
-                              <div class="sparkline13-list shadow-reset">
-
-                                  <div class="sparkline13-graph">
-                                      <div class="datatable-dashv1-list custom-datatable-overright">
-                                          <div id="toolbar"></div>
-                                          <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
-                                              <thead>
-                                                  <tr>
-                                                      <th data-field="direktorat">Direktorat</th>
-                                                      <th data-field="aplikasi">Aplikasi</th>
-                                                      <th data-field="pengguna">Pengguna</th>
-                                                      <th data-field="pemakaian">Pemakaian</th>
-                                                      <th data-field="posisi">Posisi</th>
-                                                      <th data-field="url">URL</th>
-                                                      <th data-field="ipserver">IP App Server</th>
-                                                      <th data-field="ipdatabase">IP Database</th>
-                                                      <th data-field="port">Port Aplikasi</th>
-                                                      <th data-field="deskripsi">Deskripsi</th>
-                                                      <th data-field="tolls">Tolls Pembangun</th>
-                                                      <th data-field="status">Status</th>
-                                                      <th data-field="milik">Milik</th>
-                                                      <th data-field="os">OS</th>
-                                                  </tr>
-                                              </thead>
-                                              <tbody>
-                                                  <tr>
-                                                      <td>Keuangan</td>
-                                                      <td>SAP</td>
-                                                      <td>All</td>
-                                                      <td>Terpusat</td>
-                                                      <td>KP</td>
-                                                      <td>.com</td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                  </tr>
-                                                  <tr>
-                                                      <td>Keuangan</td>
-                                                      <td>IBS</td>
-                                                      <td>All</td>
-                                                      <td>Terpusat</td>
-                                                      <td>KP</td>
-                                                      <td>.com</td>
-                                                      <td>192.168.0.1</td>
-                                                      <td>192.169.0.1</td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                      <td></td>
-                                                  </tr>
-                                              </tbody>
-                                          </table>
-                                      </div>
-                                  </div>
-                              </div>
+                        <div class="col-12">
+                          <div class="table-responsive">
+                            <table id="default_order" class="table table-striped table-bordered display no-wrap">
+                              <thead>
+                                <tr>
+                                  <th>Direktorat</th>
+                                  <th>Aplikasi</th>
+                                  <th>Pengguna</th>
+                                  <th>Pemakaian</th>
+                                  <th>Posisi</th>
+                                  <th>URL</th>
+                                  <th>IP App Server</th>
+                                  <th>IP Database</th>
+                                  <th>Port Aplikasi</th>
+                                  <th>Deskripsi</th>
+                                  <th>Tolls Pembangun</th>
+                                  <th>Status</th>
+                                  <th>Milik</th>
+                                  <th>OS</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                  <td>192.168.0.1</td>
+                                  <td>192.169.0.1</td>
+                                  <td>8000</td>
+                                  <td>...</td>
+                                  <td>PHP</td>
+                                  <td>NONAKTIF</td>
+                                  <td>...</td>
+                                  <td>LINUX</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                  <td>192.168.0.1</td>
+                                  <td>192.169.0.1</td>
+                                  <td>8000</td>
+                                  <td>...</td>
+                                  <td>PHP</td>
+                                  <td>NONAKTIF</td>
+                                  <td>...</td>
+                                  <td>LINUX</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                  <td>192.168.0.1</td>
+                                  <td>192.169.0.1</td>
+                                  <td>8000</td>
+                                  <td>...</td>
+                                  <td>PHP</td>
+                                  <td>NONAKTIF</td>
+                                  <td>...</td>
+                                  <td>LINUX</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                  <td>192.168.0.1</td>
+                                  <td>192.169.0.1</td>
+                                  <td>8000</td>
+                                  <td>...</td>
+                                  <td>PHP</td>
+                                  <td>NONAKTIF</td>
+                                  <td>...</td>
+                                  <td>LINUX</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                  <td>192.168.0.1</td>
+                                  <td>192.169.0.1</td>
+                                  <td>8000</td>
+                                  <td>...</td>
+                                  <td>PHP</td>
+                                  <td>NONAKTIF</td>
+                                  <td>...</td>
+                                  <td>LINUX</td>
+                                </tr>
+                              </tbody>
+                            </table>
                           </div>
+                        </div>
                       </div>
                       <!-- Data Table end -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -480,8 +521,8 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -510,8 +551,8 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -540,8 +581,8 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -570,8 +611,8 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -600,23 +641,72 @@
                 </div>
             </div>
         </div>
+    <!-- Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2020</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i> Close Project </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2020</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-times mr-1"></i> Close Project </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- data table JS -->
-        <script src="js/bootstrap-table.js"></script>
-        <script src="js/tableExport.js"></script>
-        <script src="js/data-table-active.js"></script>
-        <script src="js/bootstrap-table-editable.js"></script>
-        <script src="js/bootstrap-editable.js"></script>
-        <script src="js/bootstrap-table-resizable.js"></script>
-        <script src="js/colResizable-1.5.source.js"></script>
-        <script src="js/bootstrap-table-export.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/datatable-basic.init.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+
+
+</body>
 </html>
